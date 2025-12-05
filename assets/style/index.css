@@ -498,15 +498,12 @@ p {
 .contact-form-container,
 .contact-map {
     flex: 1;
-    
-}
-
-.contact-form-container {
+    border: 2px solid var(--gold-soft); 
     background: #fff; 
     padding: 30px;
     border-radius: 14px;
-    border: 2px solid var(--gold-soft); 
     box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    
 }
 
 
