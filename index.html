@@ -302,6 +302,32 @@
                 <p>&copy; 2025 Java Coffeehouse. All rights reserved.</p>
             </div>
         </footer>
-
+        <div class="login-modal-overlay" id="login-modal"> 
+            <div class="login-modal">
+                <button class="close-modal" id="close-login">&times;</button>
+                <h2>Login</h2>
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input 
+                            type="email" 
+                            id="login-email" 
+                            name="login-email" 
+                            placeholder="you@example.com"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input 
+                            type="password" 
+                            id="login-password" 
+                            name="login-password" 
+                            placeholder="Enter your password"
+                            required>
+                    </div>
+                    <button type="submit" class="login-submit" id="login-submit">Login</button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
