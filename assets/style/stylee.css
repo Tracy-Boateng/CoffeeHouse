@@ -1,27 +1,24 @@
-/* -------------------------------------------------------
-   PREMIUM CAFE THEME — FULL CSS REWRITE (FINAL VERSION)
-------------------------------------------------------- */
 
 :root {
-    /* Core Coffee Colors */
+   
     --espresso: #2B1A12;
     --cocoa: #3E2723;
     --caramel: #C49A6C;
     --cream: #FFF4E6;
 
-    /* Matcha Accents */
+    
     --matcha-soft: #E9F4D4;
     --matcha-rich: #8FBF6F;
 
-    /* Gold Details */
+    
     --gold: #D9B16F;
 
-    /* Text */
+    
     --text-dark: #2B1A12;
     --text-light: #FFFDF8;
 }
 
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +40,7 @@ a { text-decoration: none; color: inherit; }
 
 section { padding: 90px 0; }
 
-/* HEADINGS */
+
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
     letter-spacing: 0.5px;
@@ -56,9 +53,7 @@ h1, h2, h3 {
     color: var(--cocoa);
 }
 
-/* -------------------------------------------------------
-   HEADER
-------------------------------------------------------- */
+
 .site-header {
     background: var(--matcha-soft);
     padding: 12px 0;
@@ -139,9 +134,7 @@ h1, h2, h3 {
     transform: translateY(-1px);
 }
 
-/* -------------------------------------------------------
-   HERO SECTION
-------------------------------------------------------- */
+
 .hero-section {
     height: 95vh;
     background-image: url('../media/hero1.jpg');
@@ -191,9 +184,7 @@ h1, h2, h3 {
     transform: translateY(-1px);
 }
 
-/* -------------------------------------------------------
-   PRODUCTS SECTION
-------------------------------------------------------- */
+
 .products-section { background: var(--cream); }
 
 .products-grid {
@@ -250,9 +241,7 @@ h1, h2, h3 {
     color: var(--text-light);
 }
 
-/* -------------------------------------------------------
-   UNIVERSAL BANNERS
-------------------------------------------------------- */
+
 .banner {
     height: 260px;
     width: min(95%, 1100px);
@@ -284,9 +273,7 @@ h1, h2, h3 {
 .banner h2 { font-size: 2.4rem; }
 .banner p { font-size: 1.2rem; }
 
-/* -------------------------------------------------------
-   ABOUT SECTION
-------------------------------------------------------- */
+
 .about-section { background: var(--matcha-soft); }
 
 .about-container {
@@ -313,9 +300,7 @@ h1, h2, h3 {
     box-shadow: 0 6px 20px rgba(0,0,0,0.12);
 }
 
-/* -------------------------------------------------------
-   CONTACT SECTION (FIXED)
-------------------------------------------------------- */
+
 .contact-section {
     background: var(--matcha-soft);
     padding-bottom: 100px;
@@ -343,7 +328,7 @@ h1, h2, h3 {
     border-radius: 12px;
 }
 
-/* Form Fields */
+
 .form-group {
     margin-bottom: 16px;
     display: flex;
@@ -371,7 +356,7 @@ textarea:focus {
     box-shadow: 0 0 0 3px rgba(196,154,108,0.3);
 }
 
-/* Submit button */
+
 .submit-btn {
     background: var(--cocoa);
     color: white;
@@ -387,16 +372,14 @@ textarea:focus {
     background: var(--espresso);
 }
 
-/* Mobile Fix */
+
 @media (max-width: 900px) {
     .contact-wrapper {
         flex-direction: column;
     }
 }
 
-/* -------------------------------------------------------
-   FOOTER (FIXED)
-------------------------------------------------------- */
+
 .site-footer {
     background: var(--espresso);
     color: var(--text-light);
@@ -446,4 +429,4 @@ textarea:focus {
     opacity: 0.8;
 }
 
-/* End of File */
+
